@@ -1,0 +1,260 @@
+.container-aciton{
+
+    background: rgba(0, 0, 0, 0.48);
+    border: 3px solid #FF592C;
+    box-shadow: 0px 4px 40px rgba(255, 61, 22, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.59);
+    border-radius: 25px;
+    height: 473px;
+    margin-top: 80px;
+    position: relative;
+    padding-left: 105px;
+    padding-top: 112px;
+}
+.container-aciton::before{
+    display: block;
+    position: absolute;
+    height: 590px;
+    width: 588px;
+    content: '';
+    background: url(../Images/soldier.png) no-repeat;
+    right: -35px;
+    top: -120px;
+}
+.wrapper-private-sale{
+   
+    max-width: 1171px;
+    width: 100%;
+    margin: 0 auto;
+}
+.text-content-private{
+    display: flex;
+    align-items: center;
+}
+.container-img-private{
+    margin-right: 30px;
+}
+.headline-private{
+    font-size: 38px;
+    line-height: 55px;
+/* identical to box height */
+
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  
+}
+.text-private{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+/* identical to box height */
+
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+}
+.container-options{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 115px;
+    height: 100vh;
+}
+.first-white{
+    background: rgba(196, 196, 196, 0.04);
+    box-shadow: 0px 4px 40px rgba(255, 255, 63, 0.13), 0px 4px 4px rgba(0, 0, 0, 0.59);
+    backdrop-filter: blur(15px);
+/* Note: backdrop-filter has minimal browser support */
+    border: 3px solid white;
+    border-radius: 25px;
+    height: 557px;
+    max-width: 370px;
+    min-width: 370px;
+    padding-top: 69px;
+    padding-left: 46px;
+    padding-right: 46px;
+    position: relative;
+}
+.first-white::before{
+    height: 99px;
+    width: 101px;
+    display: block;
+    position: absolute;
+    content: '';
+    background: url(../Images/whitelogoprivate.png) no-repeat;
+    top: -35px;
+    left: 130px;
+}
+.second-violet{
+    background: rgba(196, 196, 196, 0.04);
+    border: 3px solid #6625D6;
+    box-shadow: 0px 4px 40px rgba(80, 31, 164, 0.13), 0px 4px 4px rgba(0, 0, 0, 0.59);
+    backdrop-filter: blur(29px);
+    /* Note: backdrop-filter has minimal browser support */
+    height: 1228px;
+
+    border-radius: 25px;
+    max-width: 370px;
+    position: relative;
+    min-width: 370px;
+    padding-top: 69px;
+    padding-left: 46px;
+    padding-right: 46px;
+}
+.second-violet::before{
+    height: 99px;
+    width: 101px;
+    display: block;
+    position: absolute;
+    content: '';
+    background: url(../Images/violetlogoprivate.png) no-repeat;
+    top: -35px;
+    left: 130px;
+}
+.third-gold{
+    background: rgba(196, 196, 196, 0.04);
+    border: 3px solid #FFFF3F;
+    box-shadow: 0px 4px 40px rgba(255, 255, 63, 0.13), 0px 4px 4px rgba(0, 0, 0, 0.59);
+    border-radius: 25px;
+   
+    height: 1392px;
+    max-width: 370px;
+    min-width: 370px;
+    position: relative;
+    padding-top: 69px;
+    padding-left: 46px;
+    padding-right: 46px;
+}
+.third-gold::before{
+    height: 99px;
+    width: 101px;
+    display: block;
+    position: absolute;
+    content: '';
+    background: url(../Images/goldlogoprivate.png) no-repeat;
+    top: -35px;
+    left: 130px;
+}
+
+.container-private{
+    height: 100%;
+    height: 2450px;
+    background: black;
+}
+.min-per-person{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.head-option{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+.headline-private-options{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.subtitle-private-options{
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+}
+.coins-count{
+    position: relative;
+    margin-right: 25px;
+    
+}
+.coins-count::after{
+    display: block;
+    width: 19px;
+    height: 18px;
+    content: '';
+    background: url(../Images/coins.png) no-repeat;
+    position: absolute;
+    right: -30px;
+    top: 3px;
+}
+.cherta{
+    
+    height: 1px;
+    margin-bottom: 30px;
+}
+h4{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+
+    line-height: 26px;
+/* identical to box height */
+
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #FFA12A 0%, #FEEF6D 100%), linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 30px;
+}
+.container-textbox-private{
+    justify-content: center;
+    display: flex;
+    
+}
+.input-private{
+    background: rgba(0, 0, 0, 0.46);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 10px;
+    max-width: 260px;
+    min-width: 260px;
+    padding-left: 20px;
+    height: 60px;
+    color: white;
+    
+}
+.button-container-private{
+    margin-top: 30px;
+}
+.container-sniper-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    vertical-align: baseline;
+    margin-bottom: 20px;
+}
+h5{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    
+}
+h6{
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    
+}
+.third-gold .container-sniper-img img{
+    margin-right: 5px;
+    margin-left: 10px;
+}
